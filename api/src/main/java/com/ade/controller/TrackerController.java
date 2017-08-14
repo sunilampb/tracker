@@ -41,7 +41,4 @@ public class TrackerController {
     public ResponseEntity putOne(@PathVariable String id, @RequestBody Vehicle vehicle){
         return new ResponseEntity(bo.putOne(id, vehicle), HttpStatus.OK);
     }
-
-
-
 }
